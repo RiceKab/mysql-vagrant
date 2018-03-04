@@ -16,15 +16,15 @@ The `seed.sql` file is run, if it exists, upon creating of the virtual machine.
 
 If you want to reseed you can run `vagrant provision --provision-with seed`.
 
-### Create VM / Start server
+#### Create VM / Start server
 
      $ vagrant up
 	 
-### Shutdown server
+#### Shutdown server
 
      $ vagrant halt
 
-### Destroy virtual machine
+#### Destroy virtual machine
 
      $ vagrant destroy
 
